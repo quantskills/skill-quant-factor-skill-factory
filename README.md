@@ -154,3 +154,9 @@ agents/
 ```
 
 其中 `scripts/generate_factor_skill_batch.py` 是核心批量生成脚本。
+
+## License
+
+This repository is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+
+Copyright (C) 2026 QuantSkills.

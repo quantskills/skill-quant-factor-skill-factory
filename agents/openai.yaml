@@ -4,3 +4,10 @@ interface:
   default_prompt: "Use $skill-quant-factor-skill-factory to generate a new QuantSkills factor Skill batch and validate it on cached real market data."
 policy:
   allow_implicit_invocation: true
+metadata:
+  organization: "QuantSkills"
+  organization_url: "https://github.com/quantskills"
+  repository: "skill-quant-factor-skill-factory"
+  repository_url: "https://github.com/quantskills/skill-quant-factor-skill-factory"
+  license: "GPL-3.0-only"
+  copyright: "Copyright (C) 2026 QuantSkills"

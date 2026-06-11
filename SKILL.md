@@ -3,6 +3,12 @@ name: skill-quant-factor-skill-factory
 description: Use when converting OHLCV alpha ideas into QuantSkills organization factor Skills, batch-generating non-duplicate framework-neutral quant factor Skill folders, validating them on cached real market data such as AkShare A-share and Yahoo US data, and writing factor evaluation reports.
 metadata:
   short-description: Generate and validate quant factor Skills
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-quant-factor-skill-factory
+  repository_url: https://github.com/quantskills/skill-quant-factor-skill-factory
+  license: GPL-3.0-only
+  copyright: Copyright (C) 2026 QuantSkills
 ---
 
 # Skill Quant Factor Skill Factory
