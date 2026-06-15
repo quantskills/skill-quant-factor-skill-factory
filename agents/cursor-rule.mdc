@@ -1,0 +1,22 @@
+---
+description: Use the Skill Quant Factor Skill Factory skill when the request matches its SKILL.md description.
+alwaysApply: false
+---
+
+# Skill Quant Factor Skill Factory Skill
+
+When the user asks for work covered by this skill, use the local skill package.
+
+Preferred local project path:
+
+```text
+.cursor/skills/skill-quant-factor-skill-factory
+```
+
+Workflow:
+
+1. Read `.cursor/skills/skill-quant-factor-skill-factory/SKILL.md`.
+2. Load referenced files under `references/` only when the skill asks for them or the task needs those details.
+3. Run bundled scripts from the skill root or from the selected sub-skill directory when `SKILL.md` instructs it.
+4. Preserve documented API names, parameters, file paths, formulas, validation limits, and freshness notes.
+5. Do not invent data interfaces, credentials, factor definitions, or runtime behavior that is not supported by the skill files.
