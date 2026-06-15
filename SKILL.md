@@ -1,6 +1,9 @@
 ---
 name: skill-quant-factor-skill-factory
-description: Use when converting OHLCV alpha ideas into QuantSkills organization factor Skills, batch-generating non-duplicate framework-neutral quant factor Skill folders, validating them on cached real market data such as AkShare A-share and Yahoo US data, and writing factor evaluation reports.
+description: Use when converting OHLCV alpha ideas into QuantSkills organization factor
+  Skills, batch-generating non-duplicate framework-neutral quant factor Skill folders,
+  validating them on cached real market data such as AkShare A-share and Yahoo US
+  data, and writing factor evaluation reports.
 license: GPL-3.0-only
 metadata:
   short-description: Generate and validate quant factor Skills
@@ -14,6 +17,31 @@ metadata:
   maintainer: abgyjaguo
   license: GPL-3.0-only
   copyright: Copyright (C) 2026 QuantSkills
+quantSkills:
+  project_type: skill
+  collection: skill-quant-factor-skill-factory
+  creator: abgyjaguo
+  maintainer: abgyjaguo
+  category: tooling
+  tags:
+  - factor-factory
+  - alpha
+  - ohlcv
+  - validation
+  - skill-generation
+  platforms:
+  - claude-code
+  - codex
+  - hermes
+  - openclaw
+  - cursor
+  status: stable
+  validation_level: runnable
+  maintainer_type: official
+  summary_zh: 不是因子库本身，而是继续生产因子库的工具：批量生成、验证和打包框架中立的 OHLCV 量化因子 Skill。
+  summary_en: Factory skill for turning OHLCV alpha ideas into QuantSkills factor
+    skills with real-market validation and packaging.
+  license: GPL-3.0
 ---
 
 # Skill Quant Factor Skill Factory
