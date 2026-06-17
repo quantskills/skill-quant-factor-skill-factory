@@ -200,3 +200,11 @@ agents/
 This repository is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
 
 Copyright (C) 2026 QuantSkills.
+
+## 🐼 PandaAI / QUANTSKILLS Community
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/quantskills/.github/main/profile/assets/pandaai-community-qr.jpg" alt="PandaAI community QR code" width="220">
+  <br>
+  <sub>Scan the QR code to join the PandaAI community for QUANTSKILLS skills, agent workflows, and quantitative research practice.</sub>
+</div>
