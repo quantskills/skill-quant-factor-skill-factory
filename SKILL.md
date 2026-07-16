@@ -44,6 +44,43 @@ quantSkills:
   license: GPL-3.0
 ---
 
+```json qsh-form
+{
+  "version": 1,
+  "task": {
+    "placeholder": "请说明要生成或维护的 OHLCV 因子技能主题、现有索引与输出要求",
+    "required": true
+  },
+  "fields": [
+    {
+      "key": "count",
+      "label": "生成数量",
+      "type": "number",
+      "default": "10",
+      "required": true
+    },
+    {
+      "key": "start_id",
+      "label": "起始因子 ID",
+      "type": "number",
+      "placeholder": "例如：1001"
+    },
+    {
+      "key": "market",
+      "label": "验证市场",
+      "type": "select",
+      "default": "both",
+      "options": [
+        { "value": "both", "label": "A 股与美股" },
+        { "value": "cn", "label": "A 股" },
+        { "value": "us", "label": "美股" }
+      ]
+    }
+  ],
+  "prompt_template": "{{#task}}任务与材料：\n{{task}}\n\n{{/task}}{{#attachments}}用户上传的材料（已放入工作区）：\n{{attachments}}\n\n{{/attachments}}使用量化因子技能工厂生成 {{count}} 个框架无关的 OHLCV 因子 Skill。{{#start_id}}从起始 ID {{start_id}} 起生成；{{/start_id}}未指定起始 ID 时按既有索引推断下一个可用编号。并在 {{market}} 真实缓存行情上验证；生成前检查既有索引避免重复，确保每个目录具备规定的技能说明、双语文档、因子与验证脚本、真实验证结果、公式参考和适配文件，核验通过数、数据供应商、市场覆盖、合并索引重复数及抽样验证结果，输出中文报告。"
+}
+```
+
 # Skill Quant Factor Skill Factory
 
 Use this QuantSkills organization Skill when the user wants to create, extend, or maintain a library of framework-neutral quant factor Skills from OHLCV data.
